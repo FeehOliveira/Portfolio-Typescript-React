@@ -28,13 +28,13 @@ const Hero = () => {
                     <Typography color="primary" variant="h1" textAlign="center" >Felipe Oliveira</Typography>
                     <Typography color="primary" variant="h2" textAlign="center" >Desenvolvedor Front-End</Typography>
                     <Grid container>
-                        <Grid item xs={12} md={4} display="flex" justifyContent="center">
+                        <Grid item xs={12} md={6} display="flex" justifyContent="center">
                         <Button>
                     <DownloadForOfflineIcon />
                         Download CV
                         </Button>
                         </Grid>
-                        <Grid item xs={12} md={4} display="flex" justifyContent="center">
+                        <Grid item xs={12} md={6} display="flex" justifyContent="center">
                         <Button>
                     <MailIcon/>
                         Contact me
