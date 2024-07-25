@@ -1,7 +1,7 @@
-import { createTheme } from '@mui/material/styles';
+import { createTheme, responsiveFontSizes } from '@mui/material/styles';
 
 
-const theme = createTheme({
+let theme = createTheme({
   palette: {
     primary: {
       main: '#232323',
@@ -16,16 +16,16 @@ const theme = createTheme({
       //'BlinkMacSystemFont',
       //'"Segoe UI"',
       //'Roboto',
-      '"Helvetica Neue"',
+      //"Helvetica Neue",
       //'Arial',
       //'sans-serif',
       //'"Apple Color Emoji"',
-      //'"Segoe UI Emoji"',
+      '"Segoe UI Emoji"',
       //'"Segoe UI Symbol"',
     ].join(','),
   },
 });
 
-
+theme = responsiveFontSizes(theme);
 
 export default theme

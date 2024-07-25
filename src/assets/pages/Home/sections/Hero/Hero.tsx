@@ -27,8 +27,8 @@ const Hero = () => {
                 <Grid item xs={12} md={8}>
                     <Typography color="primary" variant="h1" textAlign="center" >Felipe Oliveira</Typography>
                     <Typography color="primary" variant="h2" textAlign="center" >Desenvolvedor Front-End</Typography>
-                    <Grid container>
-                        <Grid item xs={12} md={6} display="flex" justifyContent="center">
+                    <Grid container display="flex" justifyContent="center">
+                        <Grid item xs={12} md={4} display="flex" justifyContent="center">
                         <Button>
                     <DownloadForOfflineIcon />
                         Download CV
